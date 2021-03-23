@@ -1,0 +1,12 @@
+/* PROPRIETES GENERALES DU SITE */
+
+@font-face {
+    font-family: "Raleway";
+    src: url("/fonts/Raleway-VariableFont_wght.ttf") format("ttf"),
+         url("/fonts/Raleway-Italic-VariableFont_wght.ttf") format("ttf");
+   }
+
+   body
+   {
+       font-family: Raleway, Arial, Helvetica, sans-serif;
+   }
