@@ -28,6 +28,55 @@
         </header>
 
         <section id="search_section"> <!-- SECTION 1: BARRE DE RECHERCHE ET FILTRES -->
+            <div id="intro_search">
+                <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+                <p>En plein centre ville ou en pleine nature</p>
+            </div>
+
+            <div id="searchbar_area">
+                <i class="fas fa-map-marker-alt"></i>
+                <input type="search" name="searchbar" id="searchbar" value="Marseille, France">
+                <button type="submit" class="submit_button">Rechercher</button>
+            </div>
+
+            <div id="filters_area">
+                <span>Filtres</span>
+                <ul>
+                    <li class="category_button">
+                        <input type="checkbox" name="filter_category" value="economical" id="economical"/>
+                        <label for="economical">
+                            <i class="fas fa-money-bill-wave fa-fw"></i>
+                            <span>Economique</span>
+                        </label>
+                    </li>
+                    <li class="category_button">                   
+                        <input type="checkbox" name="filter_category" value="family" id="family"/>
+                        <label for="family">
+                            <i class="fas fa-child fa-fw"></i>
+                            <span>Familial</span>
+                        </label>
+                    </li>
+                    <li class="category_button">
+                        <input type="checkbox" name="filter_category" value="romantic" id="romantic"/>
+                        <label for="romantic">
+                            <i class="fas fa-heart fa-fw"></i>
+                            <span>Romantique</span>
+                        </label>
+                    </li>
+                    <li class="category_button">     
+                        <input type="checkbox" name="filter_category" value="pets_allowed" id="pets_allowed"/>
+                        <label for="pets_allowed">
+                            <i class="fas fa-dog fa-fw"></i>
+                            <span>Animaux autorisés</span>
+                        </label>
+                    </li>
+                </ul>
+            </div>
+
+            <div id="info">
+                <p><i class="fas fa-info fa-xs"></i>Plus de 500 logements sont disponibles dans cette ville</p>
+            </div>
+
         </section>
 
         <main id="properties_section"> <!-- SECTION 2: HEBERGEMENTS -->
