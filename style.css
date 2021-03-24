@@ -10,3 +10,80 @@
    {
        font-family: Raleway, Arial, Helvetica, sans-serif;
    }
+
+   *
+   {
+       margin: 0;
+   }
+
+
+   /* EN TÊTE DU SITE */
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px 0 40px;
+    margin-bottom: 30px;
+}
+
+
+#logo
+{
+    padding-top: 40px;
+}
+
+#menu
+{
+    display: flex;
+    font-size: 1em;
+}
+
+#menu a
+{
+    text-decoration: none;
+}
+
+nav ul
+{
+    display: flex;
+    list-style-type: none;
+    padding-bottom: 20px;
+}
+
+nav li
+{
+    
+    padding: 40px 20px 0 20px;
+    margin: 0 10px 0 10px;
+    border: 2px transparent solid;
+}
+
+nav a
+{
+    color: black;
+}
+
+nav li:hover
+{
+    border-top: 2px #0065fc solid;
+    color: #0065fc;
+}
+
+#subscribe
+{
+    margin: 2px 0 0 10px;
+    padding: 40px 20px 0 20px;
+}
+
+#subscribe p
+{
+    color: #0065fc;
+    font-weight: bold;
+}
+
+#subscribe a:visited
+{
+    color: #0065fc;
+}
