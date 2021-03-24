@@ -35,40 +35,48 @@
             </div>
 
             <div id="searchbar_area">
-                <i class="fas fa-map-marker-alt"></i>
+                <span id="map_icon"><i class="fas fa-map-marker-alt"></i></span>
                 <input type="search" name="searchbar" id="searchbar" value="Marseille, France">
-                <button type="submit" class="submit_button">Rechercher</button>
+                <button type="submit" class="submit_button">
+                    <span id="search_button_label">Rechercher</span>
+                    <span id="search_button_icon"><i class="fas fa-search"></i></span>
+                </button>
             </div>
 
             <div id="filters_area">
-                <span>Filtres</span>
+                <span id="filters_title">Filtres</span>
                 <ul>
                     <li class="category_button">
                         <input type="checkbox" name="filter_category" value="economical" id="economical"/>
                         <label for="economical">
-                            <i class="fas fa-money-bill-wave fa-fw"></i>
-                            <span>Economique</span>
+                            <span class="filter_icon">  <i class="fas fa-money-bill-wave fa-fw"></i>
+                            </span>
+                            <span class="filter_title">Economique</span>
                         </label>
                     </li>
-                    <li class="category_button">                   
+                    <li class="category_button">  
                         <input type="checkbox" name="filter_category" value="family" id="family"/>
                         <label for="family">
-                            <i class="fas fa-child fa-fw"></i>
-                            <span>Familial</span>
+                            <span class="filter_icon">
+                                <i class="fas fa-child fa-fw"></i>
+                            </span>
+                            <span class="filter_title">Familial</span>
                         </label>
                     </li>
                     <li class="category_button">
                         <input type="checkbox" name="filter_category" value="romantic" id="romantic"/>
                         <label for="romantic">
-                            <i class="fas fa-heart fa-fw"></i>
-                            <span>Romantique</span>
+                            <span class="filter_icon">  <i class="fas fa-heart fa-fw"></i>
+                            </span>
+                            <span class="filter_title">Romantique</span>
                         </label>
                     </li>
                     <li class="category_button">     
                         <input type="checkbox" name="filter_category" value="pets_allowed" id="pets_allowed"/>
                         <label for="pets_allowed">
-                            <i class="fas fa-dog fa-fw"></i>
-                            <span>Animaux autorisés</span>
+                            <span class="filter_icon">  <i class="fas fa-dog fa-fw"></i>
+                            </span>
+                            <span class="filter_title">Animaux autorisés</span>
                         </label>
                     </li>
                 </ul>
