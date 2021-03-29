@@ -354,3 +354,194 @@ nav li:hover
     }
 
 }
+
+
+/* MAIN: HEBERGMENTS */
+
+main
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 2.9vw;
+}
+
+main h2
+{
+    font-size: 1.4em;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+main h3
+{
+    color: black;
+    font-size: 1vw;
+    margin-bottom: 5px;
+}
+
+main a
+{
+    text-decoration: none;
+}
+
+main figure
+{
+    box-shadow: 3px 2px 20px grey;
+}
+
+main figure:hover
+{
+    transform: scale(1.03);
+}
+
+main figcaption
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.price, .rating
+{
+    color: black;
+    font-size: 0.9vw;
+}
+
+.price span
+{
+   font-weight: bold;
+}
+
+.blue_star
+{
+    color: #0065fc;
+}
+
+.grey_star
+{
+    color: #D1D1D1;
+}
+
+#marseille_properties /* hébergements à Marseille */
+{
+    width: 80%;
+    background-color: #F2F2F2;
+    padding: 30px 0px 20px 0;
+    margin-right: 30px;
+    border-radius: 20px;
+}
+
+#marseille_properties_title
+{
+    padding-left: 30px;
+}
+
+#marseille_properties_list
+{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+#marseille_properties_list .property_box
+{
+    margin-bottom: 20px;
+}
+
+#marseille_properties_list figure
+{
+    background-color: white;
+    width: 17vw;
+    height: 13vw;
+    padding: 0.22vw;
+    border-radius: 15px;
+}
+
+#marseille_properties_list figure img
+{
+    width: 100%;
+    height: 57%;
+    object-fit: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+#marseille_properties_list figcaption
+{
+    padding: 5px 5px 5px 15px;
+}
+
+#marseille_properties_list .price
+{
+    margin-bottom: 7px;
+}
+
+#marseille_properties #load_more
+{
+    font-size: 1em;
+    font-weight: bold;
+    margin-top: 20px;
+    padding-left: 30px;
+}
+
+#marseille_properties #load_more a
+{
+    color: black;
+}
+
+aside /* Les plus populaires */
+{
+    background-color: #F2F2F2;
+    padding: 30px 30px 10px 30px;
+    border-radius: 20px;
+}
+
+#marseille_mostpopular_title
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#marseille_mostpopular_title i
+{
+    padding-left: 15px;
+    margin-bottom: 15px;
+}
+
+#marseille_mostpopular_list ol
+{
+    list-style-type: none;
+    padding: 0;
+}
+
+#marseille_mostpopular_list figure
+{
+    width: 22vw;
+    height: 9vw;
+    background-color: white;
+    display: flex;
+    padding: 0.22vw;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+#marseille_mostpopular_list img
+{
+    height: 100%;
+    width: 40%;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+#marseille_mostpopular_list figcaption
+{
+    display: flex;
+    flex-direction: column;
+    padding: 8px 20px 8px 10px;
+}
+
+#marseille_mostpopular_list .rating
+{
+    margin-top: auto;
+}
