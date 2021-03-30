@@ -746,7 +746,7 @@ aside /* Les plus populaires */
     transform: scale(1.03);
 }
 
-#activities_list figure a
+#activities_list a
 {
     text-decoration: none;
 }
