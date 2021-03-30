@@ -452,7 +452,7 @@ main figcaption
     background-color: white;
     width: 17vw;
     height: 13vw;
-    padding: 0.22vw;
+    padding: 3px;
     border-radius: 15px;
 }
 
@@ -520,7 +520,7 @@ aside /* Les plus populaires */
     height: 9vw;
     background-color: white;
     display: flex;
-    padding: 0.22vw;
+    padding: 3px;
     margin-bottom: 20px;
     border-radius: 10px;
 }
@@ -544,4 +544,161 @@ aside /* Les plus populaires */
 #marseille_mostpopular_list .rating
 {
     margin-top: auto;
+}
+
+@media screen and (max-width: 991px)
+{
+    main
+    {
+        flex-direction: column-reverse;
+    }
+    
+    main h3
+    {
+        font-size: 1.4vw;
+    }
+
+    .price, .rating
+    {
+        font-size: 1.2vw;
+    }
+
+    aside
+    {
+        margin-bottom: 30px;
+    }
+
+    #marseille_mostpopular_list ol
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    #marseille_mostpopular_list figure
+    {
+        width: 26vw;
+        height: 12vw;
+    }
+
+
+    #marseille_properties
+    {
+        width: 100%;
+    }
+
+    #marseille_properties_list
+    {
+        padding: 0 30px 0 30px;
+    }
+
+    #marseille_properties_list figure
+    {
+    width: 24vw;
+    height: 17vw;
+    }
+
+
+}
+
+@media screen and (max-width: 768px)
+{
+    #marseille_properties_list figure
+    {
+    width: 34vw;
+    height: 22vw;
+    }
+
+    #marseille_properties_list h3
+    {
+        font-size: 1.7vw;
+    }
+
+    #marseille_properties_list .price, #marseille_properties_list .rating
+    {
+        font-size: 1.5vw;
+    }
+
+}
+
+@media screen and (max-width: 600px)
+{
+    main
+    {
+        margin: 0 0 30px 0;
+    }
+
+    aside
+    {
+        border-radius: 0;
+    }
+
+    aside h3
+    {
+        font-size: 3vw;
+    }
+
+    aside .price, aside .rating
+    {
+        font-size: 2.8vw;
+    }
+
+    #marseille_mostpopular_list ol
+    {
+        flex-direction: column;
+    }
+
+    #marseille_mostpopular_list figure
+    {
+        width: 100%;
+        height: 25vw;
+        margin-right: 0;
+    }
+
+    #marseille_properties
+    {
+        border-radius: 0;
+    }
+
+    #marseille_properties_list figure
+    {
+        width: 36vw;
+        height: 30vw;
+    }
+
+    #marseille_properties_list h3
+    {
+        font-size: 2.5vw;
+    }
+
+    #marseille_properties_list .price, #marseille_properties_list .rating
+    {
+        font-size: 2.3vw;
+    }
+
+}
+
+@media screen and (max-width: 500px)
+{
+    #marseille_properties_list figure
+    {
+        width: 100%;
+        height: 45vw;
+    }
+
+    #marseille_properties_list figure img
+    {
+        height: 65%;
+    }
+
+    #marseille_properties_list h3
+    {
+        font-size: 3vw;
+    }
+
+    #marseille_properties_list .price, #marseille_properties_list .rating
+    {
+        font-size: 2.8vw;
+    }
+
 }
