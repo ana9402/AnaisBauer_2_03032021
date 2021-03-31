@@ -938,3 +938,32 @@ footer li a:hover
 {
     text-decoration: underline;
 }
+
+@media screen and (max-width: 991px)
+{
+    footer div
+{
+    margin-right: 10vw;
+}
+}
+
+@media screen and (max-width: 798px)
+{
+    footer
+    {
+        flex-wrap: wrap;
+    }
+
+    footer div
+    {
+        margin-bottom: 5vw;
+    }
+}
+
+@media screen and (max-width: 500px)
+{
+    footer div
+    {
+        width: 100%;
+    }
+}
