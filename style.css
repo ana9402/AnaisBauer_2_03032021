@@ -901,9 +901,13 @@ aside /* Les plus populaires */
 footer
 {
     display: flex;
-    flex-wrap: wrap;
     background-color: #F2F2F2;
     padding: 30px 40px 30px 40px;
+}
+
+footer div
+{
+    margin-right: 12vw;
 }
 
 footer h2
@@ -916,7 +920,6 @@ footer ul
 {
     list-style-type: none;
     padding: 0;
-    margin-bottom: 30px;
 }
 
 footer li
@@ -934,10 +937,4 @@ footer li a
 footer li a:hover
 {
     text-decoration: underline;
-}
-
-footer div
-{
-    margin-right: 150px;
-    padding: 0 20px;
 }
