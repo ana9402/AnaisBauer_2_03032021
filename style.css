@@ -658,6 +658,7 @@ aside /* Les plus populaires */
     #marseille_properties
     {
         border-radius: 0;
+        background-color: white;
     }
 
     #marseille_properties_list figure
