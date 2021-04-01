@@ -718,13 +718,20 @@ aside /* Les plus populaires */
 
 #activities_list
 {
+    height: auto;
     display: flex;
     justify-content: space-between;
 }
 
-#activities_list div
+#activities_list .activity_column
 {
     height: 33vw;
+    width: 25%;
+}
+
+#activities_list .activity_box
+{
+    width: 100%;
 }
 
 #activities_list figure
@@ -756,11 +763,6 @@ aside /* Les plus populaires */
     padding: 0.6vw 1vw;
 }
 
-#activities_list h3 a
-{
-    text-decoration: none;
-}
-
 #activities_list h3
 {
     color: black;
@@ -773,9 +775,21 @@ aside /* Les plus populaires */
     margin-right: 3.2vw;
 }
 
+#activities_column_2, #activities_column_4
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 /* propriétés des cartes d'activité */
 
-#activities_box_1, #activities_box_4
+.activity_box figure
+{
+    height: 100%;
+}
+
+#activities_box_1, #activities_box_4 /* colonnes 1 et 2*/
 {
     height: 100%;
 }
@@ -785,10 +799,9 @@ aside /* Les plus populaires */
     height: 90%;
 }
 
-#activities_box_2
+#activities_box_2 /* colonne 2*/
 {
     height: 52%;
-    margin-bottom: 10%;
 }
 
 #activities_box_2 img
@@ -806,7 +819,7 @@ aside /* Les plus populaires */
     height: 74%;
 }
 
-#activities_box_5
+#activities_box_5 /* colonne 4 */
 {
     height: 43%;
     margin-bottom: 10%;
@@ -841,7 +854,7 @@ aside /* Les plus populaires */
         flex-wrap: wrap;
     }
 
-    #activities_list div
+    #activities_list .activity_column
     {
         width: 45%;
         height: 40vw;
@@ -867,7 +880,7 @@ aside /* Les plus populaires */
         padding: 1.5vw 2vw;
     }
 
-    #activities_list div
+    #activities_list .activity_column
     {
         width: 100%;
         height: auto;
