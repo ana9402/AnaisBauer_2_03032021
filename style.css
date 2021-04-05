@@ -166,7 +166,7 @@ nav li:hover
 #search_section
 {
     padding: 0 55px 0 55px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 #intro_search
@@ -376,20 +376,19 @@ main
 {
     display: flex;
     justify-content: space-between;
-    margin: 2.9vw;
+    margin: 0 40px 40px 45px;;
 }
 
 main h2
 {
-    font-size: 1.4em;
-    font-weight: bold;
+    font-size: 1.4rem;
     margin-bottom: 25px;
 }
 
 main h3
 {
     color: black;
-    font-size: 1vw;
+    font-size: 1.1vw;
     margin-bottom: 5px;
 }
 
@@ -417,7 +416,7 @@ main figcaption
 .price, .rating
 {
     color: black;
-    font-size: 0.9vw;
+    font-size: 1vw;
 }
 
 .price span
@@ -437,9 +436,9 @@ main figcaption
 
 #marseille_properties /* hébergements à Marseille */
 {
-    width: 80%;
+    width: 66%;
     background-color: #F2F2F2;
-    padding: 30px 0px 20px 0;
+    padding: 40px 0px 20px 0;
     margin-right: 30px;
     border-radius: 20px;
 }
@@ -466,8 +465,8 @@ main figcaption
     background-color: white;
     width: 17vw;
     height: 13vw;
-    padding: 3px;
-    border-radius: 15px;
+    padding: 4px;
+    border-radius: 20px;
 }
 
 #marseille_properties_list figure img
@@ -475,8 +474,8 @@ main figcaption
     width: 100%;
     height: 57%;
     object-fit: cover;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
 #marseille_properties_list figcaption
@@ -491,7 +490,7 @@ main figcaption
 
 #marseille_properties #load_more
 {
-    font-size: 1em;
+    font-size: 1.1rem;
     font-weight: bold;
     margin-top: 20px;
     padding-left: 30px;
@@ -504,8 +503,9 @@ main figcaption
 
 aside /* Les plus populaires */
 {
+    width: 27%;
     background-color: #F2F2F2;
-    padding: 30px 30px 10px 30px;
+    padding: 40px 30px 10px 30px;
     border-radius: 20px;
 }
 
@@ -518,8 +518,9 @@ aside /* Les plus populaires */
 
 #marseille_mostpopular_title i
 {
+    font-size: 1.3rem;
     padding-left: 15px;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
 }
 
 #marseille_mostpopular_list ol
@@ -530,13 +531,13 @@ aside /* Les plus populaires */
 
 #marseille_mostpopular_list figure
 {
-    width: 22vw;
-    height: 9vw;
+    width: auto;
+    height: 10vw;
     background-color: white;
     display: flex;
-    padding: 3px;
+    padding: 4px;
     margin-bottom: 20px;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 #marseille_mostpopular_list img
@@ -544,8 +545,8 @@ aside /* Les plus populaires */
     height: 100%;
     width: 40%;
     object-fit: cover;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
 }
 
 #marseille_mostpopular_list figcaption
@@ -579,6 +580,7 @@ aside /* Les plus populaires */
 
     aside
     {
+        width: auto;
         margin-bottom: 30px;
     }
 
