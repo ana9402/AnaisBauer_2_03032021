@@ -613,8 +613,6 @@ aside /* Les plus populaires */
     width: 24vw;
     height: 17vw;
     }
-
-
 }
 
 @media screen and (max-width: 768px)
@@ -693,10 +691,6 @@ aside /* Les plus populaires */
         font-size: 2.3vw;
     }
 
-}
-
-@media screen and (max-width: 500px)
-{
     #marseille_properties_list figure
     {
         width: 100%;
@@ -717,6 +711,7 @@ aside /* Les plus populaires */
     {
         font-size: 2.8vw;
     }
+
 }
 
 /* SECTION 3 : ACTIVITES */
