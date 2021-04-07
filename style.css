@@ -88,7 +88,7 @@ nav li:hover
     color: #0065fc;
 }
 
-@media screen and (max-width: 650px) /* PARTIE RESPONSIVE HEADER */
+@media screen and (max-width: 768px) /* PARTIE RESPONSIVE HEADER */
 {
 
     header
@@ -314,7 +314,7 @@ nav li:hover
     border-radius: 50%;
 }
 
-@media screen and (max-width: 650px) /* PARTIE RESPONSIVE SECTION 1 */
+@media screen and (max-width: 600px) /* PARTIE RESPONSIVE SECTION 1 */
 {   
     #searchbar
     {
