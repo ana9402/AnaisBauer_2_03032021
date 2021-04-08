@@ -10,8 +10,7 @@ body
        margin: 0;
 }
 
-
-   /* EN TÊTE DU SITE */
+/* EN TÊTE DU SITE */
 
 header
 {
@@ -86,73 +85,6 @@ nav li:hover
 #subscribe a:visited
 {
     color: #0065fc;
-}
-
-@media screen and (max-width: 768px) /* PARTIE RESPONSIVE HEADER */
-{
-
-    header
-    {
-        width: 100%;
-        padding: 0;
-        margin-bottom: 20px;
-    }
-
-    #menu
-    {
-       display: flex;
-       flex-wrap: wrap;
-       flex-direction: column-reverse;
-       width: 100%;
-    }
-
-    #logo
-    {
-        position: absolute;
-        padding: 25px 0 0 20px;
-        align-self: flex-start;
-
-    }
-
-    nav ul
-    {
-        padding: 25px 0 0 0;
-        margin: 0;
-    }
-
-    nav li
-    {
-        width: 100%;
-        text-align: center;
-        padding: 0 0 20px 0;
-        margin: 0;
-        border-top: 0px transparent solid;
-        border-bottom: 2px #F2F2F2 solid;
-    }
-
-    nav li:hover
-    {
-        border-top: 0px transparent solid;
-        border-bottom: 2px #0065fc solid;
-        color: #0065fc;
-    }
-
-    nav li a
-    {
-        border: 0px transparent solid;
-    }
-
-    #subscribe
-    {
-        margin: 0;
-        padding: 25px 0 0 0;
-    }
-    
-    #subscribe p
-    {
-        text-align: right;
-        padding: 15px 30px 15px 0;
-    }
 }
 
 /* SECTION 1 : BARRE DE RECHERCHE ET FILTRES */
@@ -313,83 +245,6 @@ nav li:hover
     border: 1px #D1D1D1 solid;
     border-radius: 50%;
 }
-
-@media screen and (max-width: 600px) /* PARTIE RESPONSIVE SECTION 1 */
-{   
-    #search_section
-{
-    padding: 0 15px 0 20px;
-}
-    
-    #searchbar
-    {
-        padding-right: 20px;
-    }
-
-    #searchbar_area button
-    {
-        position: relative;
-        left: -20px;
-        padding: 0 12px 0 12px;
-        border-top-left-radius: 10px;
-        border-bottom-left-radius: 10px;
-    }
-    
-    #search_button_icon
-    {
-        display: flex;
-    }
-
-    #search_button_label
-    {
-        display: none;
-    }
-
-    #filters_area
-    {
-        flex-wrap: wrap;
-        padding-top: 10px;
-        margin-bottom: 30px;
-    }
-
-    #filters_area ul
-    {
-        padding: 0;
-    }
-
-    #filters_area li
-    {
-        margin-top: 10px;
-    }
-
-    #filters_title
-    {
-        font-size: 1.1rem;
-        margin: 0 0 5px 0;
-    }
-
-    .category_button
-    {
-        margin: 0 20px 5px 0;
-    }
-
-    .category_button label
-    {
-        font-size: 1rem;
-    }
-
-    #info
-    {
-    margin: 0;
-    }
-
-    #info p
-    {
-        align-items: flex-start;
-    }
-
-}
-
 
 /* MAIN: HEBERGMENTS */
 
@@ -582,159 +437,6 @@ aside /* Les plus populaires */
     margin-top: auto;
 }
 
-@media screen and (max-width: 991px)
-{
-    main
-    {
-        flex-direction: column-reverse;
-    }
-    
-    main h3
-    {
-        font-size: 1.4vw;
-    }
-
-    .price, .rating
-    {
-        font-size: 1.2vw;
-    }
-
-    aside
-    {
-        width: auto;
-        margin-bottom: 30px;
-    }
-
-    #marseille_mostpopular_list ol
-    {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-
-    #marseille_mostpopular_list figure
-    {
-        width: 26vw;
-        height: 12vw;
-    }
-
-
-    #marseille_properties
-    {
-        width: 100%;
-    }
-
-    #marseille_properties_list
-    {
-        padding: 0 30px 0 30px;
-    }
-
-    #marseille_properties_list figure
-    {
-    width: 24vw;
-    height: 17vw;
-    }
-}
-
-@media screen and (max-width: 768px)
-{
-    #marseille_properties_list figure
-    {
-    width: 34vw;
-    height: 22vw;
-    }
-
-    #marseille_properties_list h3
-    {
-        font-size: 1.7vw;
-    }
-
-    #marseille_properties_list .price, #marseille_properties_list .rating
-    {
-        font-size: 1.5vw;
-    }
-
-}
-
-@media screen and (max-width: 600px)
-{
-    main
-    {
-        margin: 0 0 30px 0;
-    }
-
-    aside
-    {
-        border-radius: 0;
-    }
-
-    aside h3
-    {
-        font-size: 3vw;
-    }
-
-    aside .price, aside .rating
-    {
-        font-size: 2.8vw;
-    }
-
-    #marseille_mostpopular_list ol
-    {
-        flex-direction: column;
-    }
-
-    #marseille_mostpopular_list figure
-    {
-        width: 100%;
-        height: 25vw;
-        margin-right: 0;
-    }
-
-    #marseille_properties
-    {
-        border-radius: 0;
-        background-color: white;
-    }
-
-    #marseille_properties_list figure
-    {
-        width: 36vw;
-        height: 30vw;
-    }
-
-    #marseille_properties_list h3
-    {
-        font-size: 2.5vw;
-    }
-
-    #marseille_properties_list .price, #marseille_properties_list .rating
-    {
-        font-size: 2.3vw;
-    }
-
-    #marseille_properties_list figure
-    {
-        width: 100%;
-        height: 45vw;
-    }
-
-    #marseille_properties_list figure img
-    {
-        height: 65%;
-    }
-
-    #marseille_properties_list h3
-    {
-        font-size: 3vw;
-    }
-
-    #marseille_properties_list .price, #marseille_properties_list .rating
-    {
-        font-size: 2.8vw;
-    }
-
-}
-
 /* SECTION 3 : ACTIVITES */
 
 #activities_section
@@ -873,75 +575,6 @@ aside /* Les plus populaires */
     height: 78%;
 }
 
-@media screen and (max-width: 768px)
-{
-    #activities_list h3
-    {
-        font-size: 1.7vw;
-        padding-left: 2vw;
-    }
-    
-    #activities_list
-    {
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    #activities_list .activity_column
-    {
-        width: 45%;
-        height: 40vw;
-    }
-
-    #activities_column_1, #activities_column_2
-    {
-        margin: 0 0 5vw 0;
-    }
-}
-
-@media screen and (max-width: 500px)
-{
-    #activities_list
-    {
-        flex-direction: column;
-        justify-content: space-between;
-    }
-
-    #activities_list h3
-    {
-        font-size: 3vw;
-        padding: 1.5vw 2vw;
-    }
-
-    #activities_list .activity_column
-    {
-        width: 100%;
-        height: auto;
-        margin: 0;
-    }
-
-    #activities_list figure
-    {
-        height: 45vw;
-        margin-bottom: 5vw;
-    }
-
-    #activities_list figure img
-    {
-        height: 80%;
-    }
-
-    #activities_box_2
-    {
-        margin: 0;
-    }
-
-    #activities_box_5
-    {
-        margin: 0;
-    }
-}
-
 /* PIED DE PAGE */
 
 footer
@@ -985,16 +618,172 @@ footer li a:hover
     text-decoration: underline;
 }
 
-@media screen and (max-width: 991px)
+/************************* PARTIE RESPONSIVE *************************/
+
+@media screen and (max-width: 991px) /* Tablettes paysage */
 {
+    main
+    {
+        flex-direction: column-reverse;
+    }
+    
+    main h3
+    {
+        font-size: 1.4vw;
+    }
+
+    .price, .rating
+    {
+        font-size: 1.2vw;
+    }
+
+    aside
+    {
+        width: auto;
+        margin-bottom: 30px;
+    }
+
+    #marseille_mostpopular_list ol
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    #marseille_mostpopular_list figure
+    {
+        width: 26vw;
+        height: 12vw;
+    }
+
+
+    #marseille_properties
+    {
+        width: 100%;
+    }
+
+    #marseille_properties_list
+    {
+        padding: 0 30px 0 30px;
+    }
+
+    #marseille_properties_list figure
+    {
+        width: 24vw;
+        height: 17vw;
+    }
+
     footer div
-{
-    margin-right: 10vw;
-}
+    {
+        margin-right: 10vw;
+    }
 }
 
-@media screen and (max-width: 798px)
+@media screen and (max-width: 768px) /* Tablettes portrait + Smartphones paysage */
 {
+
+    header
+    {
+        width: 100%;
+        padding: 0;
+        margin-bottom: 20px;
+    }
+
+    #menu
+    {
+       display: flex;
+       flex-wrap: wrap;
+       flex-direction: column-reverse;
+       width: 100%;
+    }
+
+    #logo
+    {
+        position: absolute;
+        padding: 25px 0 0 20px;
+        align-self: flex-start;
+
+    }
+
+    nav ul
+    {
+        padding: 25px 0 0 0;
+        margin: 0;
+    }
+
+    nav li
+    {
+        width: 100%;
+        text-align: center;
+        padding: 0 0 20px 0;
+        margin: 0;
+        border-top: 0px transparent solid;
+        border-bottom: 2px #F2F2F2 solid;
+    }
+
+    nav li:hover
+    {
+        border-top: 0px transparent solid;
+        border-bottom: 2px #0065fc solid;
+        color: #0065fc;
+    }
+
+    nav li a
+    {
+        border: 0px transparent solid;
+    }
+
+    #subscribe
+    {
+        margin: 0;
+        padding: 25px 0 0 0;
+    }
+    
+    #subscribe p
+    {
+        text-align: right;
+        padding: 15px 30px 15px 0;
+    }
+
+    #marseille_properties_list figure
+    {
+        width: 34vw;
+        height: 22vw;
+    }
+
+    #marseille_properties_list h3
+    {
+        font-size: 1.7vw;
+    }
+
+    #marseille_properties_list .price, #marseille_properties_list .rating
+    {
+        font-size: 1.5vw;
+    }
+
+    #activities_list h3
+    {
+        font-size: 1.7vw;
+        padding-left: 2vw;
+    }
+    
+    #activities_list
+    {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #activities_list .activity_column
+    {
+        width: 45%;
+        height: 40vw;
+    }
+
+    #activities_column_1, #activities_column_2
+    {
+        margin: 0 0 5vw 0;
+    }
+
     footer
     {
         flex-wrap: wrap;
@@ -1006,8 +795,195 @@ footer li a:hover
     }
 }
 
-@media screen and (max-width: 500px)
-{
+@media screen and (max-width: 600px) /* Smartphone portrait */
+{   
+    #search_section
+    {
+    padding: 0 15px 0 20px;
+    }
+    
+    #searchbar
+    {
+        padding-right: 20px;
+    }
+
+    #searchbar_area button
+    {
+        position: relative;
+        left: -20px;
+        padding: 0 12px 0 12px;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+    
+    #search_button_icon
+    {
+        display: flex;
+    }
+
+    #search_button_label
+    {
+        display: none;
+    }
+
+    #filters_area
+    {
+        flex-wrap: wrap;
+        padding-top: 10px;
+        margin-bottom: 30px;
+    }
+
+    #filters_area ul
+    {
+        padding: 0;
+    }
+
+    #filters_area li
+    {
+        margin-top: 10px;
+    }
+
+    #filters_title
+    {
+        font-size: 1.1rem;
+        margin: 0 0 5px 0;
+    }
+
+    .category_button
+    {
+        margin: 0 20px 5px 0;
+    }
+
+    .category_button label
+    {
+        font-size: 1rem;
+    }
+
+    #info
+    {
+    margin: 0;
+    }
+
+    #info p
+    {
+        align-items: flex-start;
+    }
+
+    main
+    {
+        margin: 0 0 30px 0;
+    }
+
+    aside
+    {
+        border-radius: 0;
+    }
+
+    aside h3
+    {
+        font-size: 3vw;
+    }
+
+    aside .price, aside .rating
+    {
+        font-size: 2.8vw;
+    }
+
+    #marseille_mostpopular_list ol
+    {
+        flex-direction: column;
+    }
+
+    #marseille_mostpopular_list figure
+    {
+        width: 100%;
+        height: 25vw;
+        margin-right: 0;
+    }
+
+    #marseille_properties
+    {
+        border-radius: 0;
+        background-color: white;
+    }
+
+    #marseille_properties_list figure
+    {
+        width: 36vw;
+        height: 30vw;
+    }
+
+    #marseille_properties_list h3
+    {
+        font-size: 2.5vw;
+    }
+
+    #marseille_properties_list .price, #marseille_properties_list .rating
+    {
+        font-size: 2.3vw;
+    }
+
+    #marseille_properties_list figure
+    {
+        width: 100%;
+        height: 45vw;
+    }
+
+    #marseille_properties_list figure img
+    {
+        height: 65%;
+    }
+
+    #marseille_properties_list h3
+    {
+        font-size: 3vw;
+    }
+
+    #marseille_properties_list .price, #marseille_properties_list .rating
+    {
+        font-size: 2.8vw;
+    }
+
+    #activities_list
+    {
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    #activities_list h3
+    {
+        font-size: 3vw;
+        padding: 1.5vw 2vw;
+    }
+
+    #activities_list .activity_column
+    {
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
+
+    #activities_list figure
+    {
+        height: 45vw;
+        margin-bottom: 5vw;
+    }
+
+    #activities_list figure img
+    {
+        height: 80%;
+    }
+
+    #activities_box_2
+    {
+        margin: 0;
+    }
+
+    #activities_box_5
+    {
+        margin: 0;
+    }
+
     footer div
     {
         width: 100%;
