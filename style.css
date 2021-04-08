@@ -252,7 +252,8 @@ main
 {
     display: flex;
     justify-content: space-between;
-    margin: 0 40px 40px 45px;;
+    padding: 0 40px 0 45px;
+    margin-bottom: 40px;
 }
 
 main h2
@@ -745,6 +746,16 @@ footer li a:hover
         padding: 15px 30px 15px 0;
     }
 
+    #search_section
+    {
+    padding: 0 15px 0 20px;
+    }
+    
+    main
+    {
+    padding: 0 15px 40px 15px;;
+    }
+
     #marseille_properties_list figure
     {
         width: 34vw;
@@ -761,6 +772,10 @@ footer li a:hover
         font-size: 1.5vw;
     }
 
+    #activities_section
+    {
+        padding: 0 25px 0 25px;
+    }
     #activities_list h3
     {
         font-size: 1.7vw;
@@ -787,6 +802,7 @@ footer li a:hover
     footer
     {
         flex-wrap: wrap;
+        padding: 30px 20px 30px 20px;
     }
 
     footer div
@@ -796,12 +812,7 @@ footer li a:hover
 }
 
 @media screen and (max-width: 600px) /* Smartphone portrait */
-{   
-    #search_section
-    {
-    padding: 0 15px 0 20px;
-    }
-    
+{       
     #searchbar
     {
         padding-right: 20px;
