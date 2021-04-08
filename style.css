@@ -674,6 +674,29 @@ footer li a:hover
         height: 17vw;
     }
 
+    #activities_list h3
+    {
+        font-size: 1.7vw;
+        padding-left: 2vw;
+    }
+    
+    #activities_list
+    {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #activities_list .activity_column
+    {
+        width: 45%;
+        height: 40vw;
+    }
+
+    #activities_column_1, #activities_column_2
+    {
+        margin: 0 0 5vw 0;
+    }
+
     footer div
     {
         margin-right: 10vw;
@@ -776,28 +799,7 @@ footer li a:hover
     {
         padding: 0 25px 0 25px;
     }
-    #activities_list h3
-    {
-        font-size: 1.7vw;
-        padding-left: 2vw;
-    }
-    
-    #activities_list
-    {
-        display: flex;
-        flex-wrap: wrap;
-    }
 
-    #activities_list .activity_column
-    {
-        width: 45%;
-        height: 40vw;
-    }
-
-    #activities_column_1, #activities_column_2
-    {
-        margin: 0 0 5vw 0;
-    }
 
     footer
     {
