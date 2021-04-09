@@ -459,13 +459,13 @@ aside /* Les plus populaires */
     justify-content: space-between;
 }
 
-#activities_list .activity_column
+#activities_list .activityColumn
 {
     height: 33vw;
     width: 25%;
 }
 
-#activities_list .activity_box
+#activities_list .activityCard
 {
     width: 100%;
 }
@@ -506,12 +506,12 @@ aside /* Les plus populaires */
 }
 
 /* propriétés des colonnes */
-#activities_column_1, #activities_column_2, #activities_column_3
+#activityColumn_1, #activityColumn_2, #activityColumn_3
 {
     margin-right: 3.2vw;
 }
 
-#activities_column_2, #activities_column_4
+#activityColumn_2, #activityColumn_4
 {
     display: flex;
     flex-direction: column;
@@ -520,58 +520,58 @@ aside /* Les plus populaires */
 
 /* propriétés des cartes d'activité */
 
-.activity_box figure
+.activityCard figure
 {
     height: 100%;
 }
 
-#activities_box_1, #activities_box_4 /* colonnes 1 et 2*/
+#activityCard_1, #activityCard_4
 {
     height: 100%;
 }
 
-#activities_box_1 img, #activities_box_4 img
+#activityCard_1 img, #activityCard_4 img
 {
     height: 90%;
 }
 
-#activities_box_2 /* colonne 2*/
+#activityCard_2
 {
     height: 52%;
 }
 
-#activities_box_2 img
+#activityCard_2 img
 {
     height: 81%;
 }
 
-#activities_box_3
+#activityCard_3
 {
     height: 38%;
 }
 
-#activities_box_3 img
+#activityCard_3 img
 {
     height: 74%;
 }
 
-#activities_box_5 /* colonne 4 */
+#activityCard_5
 {
     height: 43%;
     margin-bottom: 10%;
 }
 
-#activities_box_5 img
+#activityCard_5 img
 {
     height: 76%;
 }
 
-#activities_box_6
+#activityCard_6
 {
     height: 47%;
 }
 
-#activities_box_6 img
+#activityCard_6 img
 {
     height: 78%;
 }
@@ -686,13 +686,13 @@ footer li a:hover
         flex-wrap: wrap;
     }
 
-    #activities_list .activity_column
+    #activities_list .activityColumn
     {
         width: 45%;
         height: 40vw;
     }
 
-    #activities_column_1, #activities_column_2
+    #activityColumn_1, #activityColumn_2
     {
         margin: 0 0 5vw 0;
     }
@@ -799,7 +799,6 @@ footer li a:hover
     {
         padding: 0 25px 0 25px;
     }
-
 
     footer
     {
@@ -969,7 +968,7 @@ footer li a:hover
         padding: 1.5vw 2vw;
     }
 
-    #activities_list .activity_column
+    #activities_list .activityColumn
     {
         width: 100%;
         height: auto;
@@ -987,12 +986,12 @@ footer li a:hover
         height: 80%;
     }
 
-    #activities_box_2
+    #activityCard_2
     {
         margin: 0;
     }
 
-    #activities_box_5
+    #activityCard_5
     {
         margin: 0;
     }
