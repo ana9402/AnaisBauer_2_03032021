@@ -97,7 +97,7 @@ nav li:hover
 
 #intro_search
 {
-    margin: 35px 0 20px 0;
+    margin: 35px 0 19px 0;
 }
 
 #intro_search h1
@@ -125,17 +125,17 @@ nav li:hover
     justify-content: center;
     background-color: #F2F2F2;
     padding: 0px 18px 0px 18px;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
 }
 
 #searchbar
 {
-    width: 240px;
+    width: 238px;
     font-weight: bold;
     font-size: 1.1rem;
     border: 1px #F2F2F2 solid;
-    padding-left: 15px;
+    padding-left: 20px;
     outline: none;
 }
 
@@ -161,9 +161,9 @@ nav li:hover
 {
     display: flex;
     align-items: center;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: bold;
-    margin-bottom: 30px;
+    margin: 0 0 24px 7px;
 }
 
 #filters_title
@@ -180,9 +180,9 @@ nav li:hover
 
 .category_button
 {
-    padding: 0 10px 0 0;
-    margin: 0 35px 10px 0;
-    border: 1px #D1D1D1 solid;
+    padding: 0 20px 0 0;
+    margin: 0 25px 10px 0;
+    border: 2px #D1D1D1 solid;
     border-radius: 20rem;
     cursor: pointer;
 }
@@ -206,12 +206,12 @@ nav li:hover
     justify-content: center;
     align-items: center;
     position: relative;
-    left: -5px;
+    left: -7px;
     background-color: #DEEBFF;
     border-radius: 50%;
-    height: 45px;
-    width: 45px;
-    margin-right: 12px;
+    height: 49px;
+    width: 49px;
+    margin-right: 10px;
 }
 
 .filter_icon i
@@ -227,7 +227,7 @@ nav li:hover
 
 #info
 {
-    margin-left: 5px;
+    margin-left: 4px;
 }
 
 #info p
@@ -239,8 +239,8 @@ nav li:hover
 
 #info i
 {
-    margin-right: 15px;
-    padding: 4px 7px 4px 7px;
+    margin-right: 13px;
+    padding: 5px 8px 5px 8px;
     color: #0065fc;
     border: 1px #D1D1D1 solid;
     border-radius: 50%;
