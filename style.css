@@ -252,7 +252,7 @@ main
 {
     display: flex;
     justify-content: space-between;
-    padding: 0 40px 0 45px;
+    padding: 0 35px 0 50px;
     margin-bottom: 40px;
 }
 
@@ -276,7 +276,10 @@ main a
 
 main figure
 {
+    background-color: white;
+    border-radius: 25px;
     box-shadow: 3px 2px 20px grey;
+    padding: 5px;
 }
 
 main figure:hover
@@ -313,37 +316,30 @@ main figcaption
 
 #marseille_properties /* hébergements à Marseille */
 {
-    width: 66%;
+    width: 63.5%;
     background-color: #F2F2F2;
-    padding: 40px 0px 20px 0;
+    padding: 40px 40px 20px 40px;
     margin-right: 30px;
     border-radius: 20px;
-}
-
-#marseille_properties_title
-{
-    padding-left: 30px;
 }
 
 #marseille_properties_list
 {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 #marseille_properties_list .property_box
 {
     margin-bottom: 20px;
+    width: 31.5%;
 }
 
 #marseille_properties_list figure
 {
-    background-color: white;
-    width: 17vw;
-    height: 13vw;
-    padding: 4px;
-    border-radius: 20px;
+    width: auto;
+    height: 13.5vw;
 }
 
 #marseille_properties_list figure img
@@ -357,7 +353,7 @@ main figcaption
 
 #marseille_properties_list figcaption
 {
-    padding: 5px 5px 5px 15px;
+    padding: 5px 5px 5px 12px;
 }
 
 #marseille_properties_list .price
@@ -370,7 +366,6 @@ main figcaption
     font-size: 1.1rem;
     font-weight: bold;
     margin-top: 20px;
-    padding-left: 30px;
 }
 
 #marseille_properties #load_more a
@@ -382,7 +377,7 @@ aside /* Les plus populaires */
 {
     width: 27%;
     background-color: #F2F2F2;
-    padding: 40px 30px 10px 30px;
+    padding: 40px 40px 10px 40px;
     border-radius: 20px;
 }
 
@@ -409,17 +404,14 @@ aside /* Les plus populaires */
 #marseille_mostpopular_list figure
 {
     width: auto;
-    height: 10vw;
-    background-color: white;
+    height: 9.5vw;
     display: flex;
-    padding: 4px;
     margin-bottom: 20px;
-    border-radius: 20px;
 }
 
 #marseille_mostpopular_list img
 {
-    height: 100%;
+    height: auto;
     width: 40%;
     object-fit: cover;
     border-top-left-radius: 20px;
@@ -428,9 +420,7 @@ aside /* Les plus populaires */
 
 #marseille_mostpopular_list figcaption
 {
-    display: flex;
-    flex-direction: column;
-    padding: 8px 20px 8px 10px;
+    padding: 10px 20px 8px 15px;
 }
 
 #marseille_mostpopular_list .rating
