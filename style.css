@@ -12,6 +12,12 @@ body
        list-style-type: none;
 }
 
+a
+{
+    color: black;
+    text-decoration: none;
+}
+
 header /*************** EN-TÊTE DU SITE ***************/
 {
     display: flex;
@@ -32,11 +38,6 @@ header /*************** EN-TÊTE DU SITE ***************/
     font-size: 1rem;
 }
 
-#menu a
-{
-    text-decoration: none;
-}
-
 nav ul
 {
     display: flex;
@@ -48,11 +49,6 @@ nav li
     
     padding: 45px 35px 0 35px;
     border-top: 2.5px transparent solid;
-}
-
-nav a
-{
-    color: black;
 }
 
 nav li:hover
@@ -253,14 +249,8 @@ main h2
 
 main h3
 {
-    color: black;
     font-size: 1.1vw;
     margin-bottom: 5px;
-}
-
-main a
-{
-    text-decoration: none;
 }
 
 main figure
@@ -284,7 +274,6 @@ main figcaption
 
 .price, .rating
 {
-    color: black;
     font-size: 1vw;
 }
 
@@ -357,11 +346,6 @@ main figcaption
     margin-top: 20px;
 }
 
-#marseille_properties #load_more a
-{
-    color: black;
-}
-
 aside
 {
     width: 27%;
@@ -413,7 +397,7 @@ aside
 
 #activities_section /*************** SECTION 3: ACTIVITES ***************/
 {
-    padding: 0 40px 0 40px;
+    padding: 0 40px 0 50px;
     margin-bottom: 60px;
 }
 
@@ -460,11 +444,6 @@ aside
     transform: scale(1.03);
 }
 
-#activities_list a
-{
-    text-decoration: none;
-}
-
 #activities_list figcaption
 {
     padding: 0.6vw 1vw;
@@ -472,7 +451,6 @@ aside
 
 #activities_list h3
 {
-    color: black;
     font-size: 1.2vw;
 }
 
@@ -566,12 +544,6 @@ footer li
 {
     font-size: 0.95rem;
     margin-bottom: 15px;
-}
-
-footer li a
-{
-    color: black;
-    text-decoration: none;
 }
 
 footer li a:hover
