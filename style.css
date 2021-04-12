@@ -257,7 +257,7 @@ main figure
 {
     background-color: white;
     border-radius: 25px;
-    box-shadow: 3px 2px 20px grey;
+    box-shadow: 1px 1px 10px #d1d1d1;
     padding: 5px;
 }
 
@@ -428,7 +428,7 @@ aside
 #activities_list figure
 {
     border-radius: 20px;
-    box-shadow: 3px 2px 20px grey;
+    box-shadow: 1px 1px 10px #d1d1d1;
 }
 
 #activities_list figure img
