@@ -414,7 +414,7 @@ aside
 #activities_section /*************** SECTION 3: ACTIVITES ***************/
 {
     padding: 0 40px 0 40px;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
 }
 
 #activities_title h2
@@ -548,24 +548,24 @@ footer /*************** PIED DE PAGE ***************/
 {
     display: flex;
     background-color: #F2F2F2;
-    padding: 30px 40px 30px 40px;
+    padding: 50px 40px 30px 50px;
 }
 
 footer div
 {
-    margin-right: 12vw;
+    width: 33%;
 }
 
 footer h2
 {
-    font-size: 1em;
+    font-size: 1.1rem;
     margin-bottom: 15px;
 }
 
 footer li
 {
-    font-size: 0.9em;
-    margin-bottom: 10px;
+    font-size: 0.95rem;
+    margin-bottom: 15px;
 }
 
 footer li a
@@ -658,7 +658,7 @@ footer li a:hover
 
     footer div
     {
-        margin-right: 10vw;
+        margin-right: 4rem;
     }
 }
 
@@ -807,12 +807,11 @@ footer li a:hover
     footer
     {
         flex-wrap: wrap;
-        padding: 30px 20px 30px 20px;
     }
 
     footer div
     {
-        margin-bottom: 5vw;
+        margin-bottom: 2rem;
     }
 }
 
