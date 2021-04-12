@@ -8,11 +8,11 @@ body
 *
 {
        margin: 0;
+       padding: 0;
+       list-style-type: none;
 }
 
-/* EN TÊTE DU SITE */
-
-header
+header /*************** EN-TÊTE DU SITE ***************/
 {
     display: flex;
     justify-content: space-between;
@@ -20,7 +20,6 @@ header
     padding: 0 60px 0 50px;
     margin-bottom: 30px;
 }
-
 
 #logo
 {
@@ -41,7 +40,6 @@ header
 nav ul
 {
     display: flex;
-    list-style-type: none;
     padding-bottom: 25px;
 }
 
@@ -49,7 +47,6 @@ nav li
 {
     
     padding: 45px 35px 0 35px;
-    margin: 0;
     border-top: 2.5px transparent solid;
 }
 
@@ -66,7 +63,6 @@ nav li:hover
 
 #subscribe
 {
-    margin: 0;
     padding: 0 0 20px 0;
 }
 
@@ -87,9 +83,7 @@ nav li:hover
     color: #0065fc;
 }
 
-/* SECTION 1 : BARRE DE RECHERCHE ET FILTRES */
-
-#search_section
+#search_section /*************** SECTION 1: BARRE DE RECHERCHE ET FILTRES ***************/
 {
     padding: 0 55px 0 55px;
     margin-bottom: 40px;
@@ -111,7 +105,7 @@ nav li:hover
     font-size: 1rem;
 }
 
-#searchbar_area /* barre de recherche */
+#searchbar_area
 {
     display: flex;
     height: 50px;
@@ -157,7 +151,7 @@ nav li:hover
     display: none;
 }
 
-#filters_area /* filtres */
+#filters_area
 {
     display: flex;
     align-items: center;
@@ -168,14 +162,13 @@ nav li:hover
 
 #filters_title
 {
-    margin: 0 0 10px 0;
+    margin: 0 40px 10px 0;
 }
 
 #filters_area ul
 {
     display: flex;
     flex-flow: row wrap;
-    list-style-type: none;
 }
 
 .category_button
@@ -215,7 +208,6 @@ nav li:hover
 
 .filter_icon i
 {
-    margin: 0;
     color: #0065fc;
 }
 
@@ -245,9 +237,7 @@ nav li:hover
     border-radius: 50%;
 }
 
-/* MAIN: HEBERGMENTS */
-
-main
+main /*************** SECTION MAIN: HEBERGEMENTS ***************/
 {
     display: flex;
     justify-content: space-between;
@@ -313,7 +303,7 @@ main figcaption
     color: #D1D1D1;
 }
 
-#marseille_properties /* hébergements à Marseille */
+#marseille_properties
 {
     width: 63.5%;
     background-color: #F2F2F2;
@@ -372,7 +362,7 @@ main figcaption
     color: black;
 }
 
-aside /* Les plus populaires */
+aside
 {
     width: 27%;
     background-color: #F2F2F2;
@@ -392,12 +382,6 @@ aside /* Les plus populaires */
     font-size: 1.3rem;
     padding-left: 15px;
     margin-bottom: 25px;
-}
-
-#marseille_mostpopular_list ol
-{
-    list-style-type: none;
-    padding: 0;
 }
 
 #marseille_mostpopular_list figure
@@ -427,9 +411,7 @@ aside /* Les plus populaires */
     margin-top: auto;
 }
 
-/* SECTION 3 : ACTIVITES */
-
-#activities_section
+#activities_section /*************** SECTION 3: ACTIVITES ***************/
 {
     padding: 0 40px 0 40px;
     margin-bottom: 40px;
@@ -494,7 +476,6 @@ aside /* Les plus populaires */
     font-size: 1.2vw;
 }
 
-/* propriétés des colonnes */
 #activityColumn_1, #activityColumn_2, #activityColumn_3
 {
     margin-right: 3.2vw;
@@ -506,8 +487,6 @@ aside /* Les plus populaires */
     flex-direction: column;
     justify-content: space-between;
 }
-
-/* propriétés des cartes d'activité */
 
 .activityCard figure
 {
@@ -565,9 +544,7 @@ aside /* Les plus populaires */
     height: 78%;
 }
 
-/* PIED DE PAGE */
-
-footer
+footer /*************** PIED DE PAGE ***************/
 {
     display: flex;
     background-color: #F2F2F2;
@@ -583,12 +560,6 @@ footer h2
 {
     font-size: 1em;
     margin-bottom: 15px;
-}
-
-footer ul
-{
-    list-style-type: none;
-    padding: 0;
 }
 
 footer li
