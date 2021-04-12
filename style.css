@@ -915,6 +915,11 @@ footer li a:hover
         align-items: flex-start;
     }
 
+    #marseille_mostpopular_list li
+    {
+        width: 100%;
+    }
+
     #marseille_properties
     {
         padding: 0 20px;
@@ -962,13 +967,11 @@ footer li a:hover
     #activities_list
     {
         flex-direction: column;
-        justify-content: space-between;
     }
 
     #activities_list h3
     {
-        font-size: 3vw;
-        padding: 1.5vw 2vw;
+        font-size: 1rem;
     }
 
     #activities_list .activityColumn
@@ -980,21 +983,21 @@ footer li a:hover
 
     #activities_list figure
     {
-        height: 45vw;
-        margin-bottom: 5vw;
+        height: 11rem;
+        margin-bottom: 20px;
+    }
+
+    #activities_list figcaption
+    {
+        padding-top: 12px;
     }
 
     #activities_list figure img
     {
-        height: 80%;
+        height: 70%;
     }
 
-    #activityCard_2
-    {
-        margin: 0;
-    }
-
-    #activityCard_5
+    #activityCard_2, #activityCard_5
     {
         margin: 0;
     }
