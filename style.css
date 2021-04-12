@@ -211,7 +211,6 @@ nav li:hover
     border-radius: 50%;
     height: 49px;
     width: 49px;
-    margin-right: 10px;
 }
 
 .filter_icon i
@@ -897,7 +896,7 @@ footer li a:hover
 
     .category_button
     {
-        margin: 0 20px 5px 0;
+        margin: 0 15px 5px 0;
     }
 
     .category_button label
