@@ -657,29 +657,26 @@ footer li a:hover
         position: absolute;
         padding: 25px 0 0 20px;
         align-self: flex-start;
-
     }
 
     nav ul
     {
-        padding: 25px 0 0 0;
-        margin: 0;
+        padding: 20px 0 0 0;
     }
 
     nav li
     {
         width: 100%;
         text-align: center;
-        padding: 0 0 20px 0;
-        margin: 0;
+        padding: 0 0 15px 0;
         border-top: 0px transparent solid;
-        border-bottom: 2px #F2F2F2 solid;
+        border-bottom: 2.5px #F2F2F2 solid;
     }
 
     nav li:hover
     {
         border-top: 0px transparent solid;
-        border-bottom: 2px #0065fc solid;
+        border-bottom: 2.5px #0065fc solid;
         color: #0065fc;
     }
 
@@ -690,19 +687,28 @@ footer li a:hover
 
     #subscribe
     {
-        margin: 0;
         padding: 25px 0 0 0;
     }
     
     #subscribe p
     {
         text-align: right;
-        padding: 15px 30px 15px 0;
+        padding: 15px 20px 15px 0;
     }
 
     #search_section
     {
         padding: 0 15px 0 20px;
+    }
+
+    #intro_search
+    {
+        margin: 30px 0 40px 0;
+    }
+
+    #intro_search h1
+    {
+    margin: 0 0 11px 0;
     }
 
     main
@@ -773,12 +779,14 @@ footer li a:hover
 
     #activities_section
     {
-        padding: 0 25px 0 25px;
+        padding: 0 20px;    
+        margin-bottom: 30px;
     }
 
     footer
     {
         flex-wrap: wrap;
+        padding: 50px 30px 20px 30px;
     }
 
     footer div
@@ -789,16 +797,22 @@ footer li a:hover
 
 @media screen and (max-width: 600px) /* Smartphone portrait */
 {       
+    #searchbar_area
+    {
+        width: auto;
+    }
+    
     #searchbar
     {
         padding-right: 20px;
+        width: 100%;
     }
 
     #searchbar_area button
     {
         position: relative;
         left: -20px;
-        padding: 0 12px 0 12px;
+        padding: 0 15px 0 15px;
         border-top-left-radius: 10px;
         border-bottom-left-radius: 10px;
     }
