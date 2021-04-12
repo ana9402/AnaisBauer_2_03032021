@@ -525,24 +525,32 @@ aside
 footer /*************** PIED DE PAGE ***************/
 {
     display: flex;
+    flex-wrap: wrap;
     background-color: #F2F2F2;
     padding: 50px 40px 30px 50px;
 }
 
 footer div
 {
+    font-weight: 300;
     width: 33%;
+    margin: 0 0 20px 0;
 }
 
 footer h2
 {
     font-size: 1.1rem;
-    margin-bottom: 15px;
+    margin-bottom: 16px;
+}
+
+footer ul
+{
+    width: 85%;
 }
 
 footer li
 {
-    font-size: 0.95rem;
+    font-size: 1rem;
     margin-bottom: 15px;
 }
 
@@ -628,10 +636,6 @@ footer li a:hover
         margin: 0 0 5vw 0;
     }
 
-    footer div
-    {
-        margin-right: 4rem;
-    }
 }
 
 @media screen and (max-width: 768px) /* Tablettes portrait + Smartphones paysage */
@@ -785,13 +789,12 @@ footer li a:hover
 
     footer
     {
-        flex-wrap: wrap;
         padding: 50px 30px 20px 30px;
     }
 
     footer div
     {
-        margin-bottom: 2rem;
+        width: 100%;
     }
 }
 
@@ -955,10 +958,5 @@ footer li a:hover
     #activityCard_2, #activityCard_5
     {
         margin: 0;
-    }
-
-    footer div
-    {
-        width: 100%;
     }
 }
