@@ -721,16 +721,15 @@ footer li a:hover
         border-radius: 0;
     }
 
-    aside h3
+    main h3
     {
         font-size: 1rem;
     }
 
-    aside .price, aside .rating
+    main .price, aside .rating
     {
         font-size: 0.9rem;
     }
-
 
     #marseille_mostpopular_list ol
     {
@@ -877,12 +876,7 @@ footer li a:hover
     {
         width: auto;
     }
-
    
-    #marseille_properties_list h3
-    {
-        font-size: 1rem;
-    }
 
     #marseille_properties_list .price, #marseille_properties_list .rating
     {
@@ -892,13 +886,12 @@ footer li a:hover
     #marseille_properties_list .property_box
     {
         width: 100%;
-        height: auto;
+        height: 12rem;
     }
 
     #marseille_properties_list figure
     {
         height: 100%;
-        height: 12rem;
     }
 
     #marseille_properties_list figure img
@@ -937,10 +930,5 @@ footer li a:hover
     #activities_list figure img
     {
         height: 70%;
-    }
-
-    #activityCard_2, #activityCard_5
-    {
-        margin: 0;
     }
 }
