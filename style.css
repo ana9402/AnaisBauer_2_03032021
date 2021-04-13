@@ -140,7 +140,7 @@ nav li:hover
     font-size: 1.1rem;
     background-color: #0065fc;
     padding: 0 20px 0 20px;
-    border: 1px #0065fc solid;
+    border: 1px transparent solid;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
     outline: none;
@@ -877,7 +877,6 @@ footer li a:hover
         width: auto;
     }
    
-
     #marseille_properties_list .price, #marseille_properties_list .rating
     {
         font-size: 0.9rem;
