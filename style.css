@@ -315,7 +315,7 @@ main figcaption
 
 #marseille_properties_list .property_box
 {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     width: 31.5%;
     height: 195px;
 }
@@ -565,20 +565,11 @@ footer li a:hover
         flex-direction: column-reverse;
     }
     
-    main h3
-    {
-        font-size: 1.4vw;
-    }
-
-    .price, .rating
-    {
-        font-size: 1.2vw;
-    }
-
     aside
     {
         width: auto;
         margin-bottom: 30px;
+        padding: 40px 30px 10px 30px;
     }
 
     #marseille_mostpopular_list ol
@@ -591,29 +582,25 @@ footer li a:hover
     #marseille_mostpopular_list li
     {
         width: 31.5%;
-    }
-
-    #marseille_mostpopular_list figure
-    {
-        height: 13.5vw;
+        height: auto;
     }
 
     #marseille_properties
     {
-        margin: 0;
         width: auto;
+        margin: 0;
+        padding: 40px 30px 20px 30px;
+    }
+
+    #marseille_properties_list .property_box
+    {
+        height: 170px;
     }
 
     #marseille_properties_list figure
     {
         width: auto;
-        height: 17vw;
-    }
-
-    #activities_list h3
-    {
-        font-size: 1.7vw;
-        padding-left: 2vw;
+        height: 100%;
     }
     
     #activities_list
@@ -625,14 +612,24 @@ footer li a:hover
     #activities_list .activityColumn
     {
         width: 45%;
-        height: 40vw;
+        height: 312px;
     }
 
     #activityColumn_1, #activityColumn_2
     {
-        margin: 0 0 5vw 0;
+        margin: 0 0 25px 0;
     }
 
+    #activityCard_2, #activityCard_3, #activityCard_5, #activityCard_6
+    {
+        height: 46%;
+        margin: 0;
+    }
+
+    #activityCard_2 img, #activityCard_3 img, #activityCard_5 img, #activityCard_6 img
+    {
+        height: 70%;
+    }
 }
 
 @media screen and (max-width: 768px) /* Tablettes portrait + Smartphones paysage */
