@@ -762,19 +762,9 @@ footer li a:hover
     #marseille_properties_list figure
     {
         width: auto;
-        height: 25vw;
+        height: 177px;
     }
-
-    #marseille_properties_list h3
-    {
-        font-size: 2vw;
-    }
-
-    #marseille_properties_list .price, #marseille_properties_list .rating
-    {
-        font-size: 1.9vw;
-    }
-
+    
     #activities_section
     {
         padding: 0 20px;    
