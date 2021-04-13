@@ -1,4 +1,9 @@
 /* PROPRIETES GENERALES DU SITE */
+html
+{
+    max-width: 1600px;
+    margin: auto;
+}
 
 body
 {
